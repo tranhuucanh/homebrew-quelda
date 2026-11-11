@@ -4,8 +4,8 @@
 class Quelda < Formula
   desc "PDF security scanner: one PDF and a policy in, a verdict out"
   homepage "https://github.com/tranhuucanh/quelda"
-  url "https://github.com/tranhuucanh/quelda/releases/download/v0.1.0/quelda-aarch64-apple-darwin.tar.gz"
-  sha256 "c8cc4ca2aa40ae91337b5851b8e2925c49759094ac942af361d3bb8d3226d687"
+  url "https://github.com/tranhuucanh/quelda/releases/download/v0.2.0/quelda-aarch64-apple-darwin.tar.gz"
+  sha256 "8438ef13105e07429e9c552451b1edc932601e92cadd239d0790fb8b911ecf16"
   license "MIT"
 
   # macOS (Apple Silicon) only: on Linux, install the static binary (docs/cli.md).
