@@ -2,10 +2,10 @@
 # edit in the tap (changes are overwritten). Source:
 # https://github.com/tranhuucanh/quelda/blob/main/packaging/homebrew/quelda.rb.in
 class Quelda < Formula
-  desc "PDF security scanner: one PDF and a policy in, a verdict out"
+  desc "PDF & Illustrator security scanner: files + policy in, verdict out"
   homepage "https://github.com/tranhuucanh/quelda"
-  url "https://github.com/tranhuucanh/quelda/releases/download/v0.2.0/quelda-aarch64-apple-darwin.tar.gz"
-  sha256 "8438ef13105e07429e9c552451b1edc932601e92cadd239d0790fb8b911ecf16"
+  url "https://github.com/tranhuucanh/quelda/releases/download/v0.3.0/quelda-aarch64-apple-darwin.tar.gz"
+  sha256 "b02ecd6b960848c5cbf2aef05b636135f28fe0f955252408c58c7c4afd560d8e"
   license "MIT"
 
   # macOS (Apple Silicon) only: on Linux, install the static binary (docs/cli.md).
